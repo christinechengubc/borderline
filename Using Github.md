@@ -23,8 +23,8 @@ This guide will cover:
 ![Making a New Issue](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/6.png?raw=true)
 **If the label you need doesn't exist, you can create new labels under the 'Labels' tab!**
 ![Labels](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/4.png?raw=true)
-6. Press 'submit' and away it goes!
-*Note that it is possible to reference other issues and commits. Simply type '#' followed by the number for the issue to link it. Also, people are linkable too!* @TwelveNights
+6. Press 'submit' and away it goes!  
+**Note that it is possible to reference other issues and commits. Simply type '#' followed by the number for the issue to link it. Also, people are linkable too!**
 
 ## Using Github for Windows
 1. Open up Github for Windows.
