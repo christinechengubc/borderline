@@ -41,6 +41,13 @@ This guide will cover:
 ![Sync](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/14.png?raw=true)
 
 #### Committing (adding, modifying, and removing files)
+  Commits are simply a fancy term for 'adding changes'. When you make changes to the project on your computer, they are not automatically forwarded to the repository on Github. Instead, you must do an action called 'committing.' On your computer, by adding files to the project folder (e.g. new art), modifying existing files (e.g. the prologue), or deleting files, committing becomes an available action to preform on Github for Windows. To bring those changes to the repository so everyone can update, follow the steps below.
+
+  For example, I'll add a file called 'example file' to the folder 'Using Github', and you'll see that it gives me the option to commit.
+  
+![Example](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/example%20file.png?raw=true)
+![Ready to Commit](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/15.png?raw=true)
+  
 1. Click on the farthest right circle on the timeline. These are the changes you've made.
 ![Recent Changes](https://github.com/TwelveNights/borderline/blob/master/Using%20Github/11.png?raw=true)
 2. Here, you can view changes to each file by clicking on them. Note that this is usually for code, so this feature may not be applicable to you.
