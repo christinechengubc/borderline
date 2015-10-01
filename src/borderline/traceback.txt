@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 55, in script
+    "%(fakeMcName.firstName)f %(fakeMcName.lastName)f....That's a nice name."
+TypeError: a float is required
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 55, in script
+    "%(fakeMcName.firstName)f %(fakeMcName.lastName)f....That's a nice name."
+  File "C:\Users\Johnson Nguyen\Desktop\renpy-6.99.4-sdk\renpy\ast.py", line 593, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "C:\Users\Johnson Nguyen\Desktop\renpy-6.99.4-sdk\renpy\exports.py", line 1013, in say
+    what = what % tag_quoting_dict
+TypeError: a float is required
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.4.467
+borderline 0.0
