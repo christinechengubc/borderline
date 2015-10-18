@@ -89,6 +89,7 @@ init -1 python hide:
     ## respectively.
 
     # style.window.background = Frame("frame.png", 12, 12)
+    style.window.background = Solid((0, 0, 0, 180))
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -110,6 +111,20 @@ init -1 python hide:
     ## and padding.
 
     # style.window.yminimum = 250
+    
+    ##Customization of the name box if show_two_window = True
+    
+    style.say_who_window.background = Solid((0, 0, 0, 255))
+    style.say_who_window.xalign = 0.0
+    style.say_who_window.yalign = 1.0
+    style.say_who_window.xpos = 0 
+    style.say_who_window.ypos = 63 
+    style.say_who_window.left_padding = 5
+    style.say_who_window.top_padding = 5
+    style.say_who_window.right_padding = 5
+    style.say_who_window.bottom_padding = 5
+    style.say_who_window.xminimum = 250 
+    style.say_who_window.yminimum = 10 
 
 
     #########################################
@@ -142,6 +157,13 @@ init -1 python hide:
     ## The default size of text.
 
     # style.default.size = 22
+    
+    style.default.color = "#FFFFFF"
+    #style.default.outlines = [(4, "#ffffff", 0, 0), (2, "#000000", 0, 0)] #Adds a white outline 4 pixels thick, and then a black outline, 2 pixels thick
+    
+    #customize character name font
+    style.say_label.color = "#FFFFFF"
+    style.say_label.font = "DejaVuSans.ttf"
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
