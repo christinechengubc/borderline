@@ -126,7 +126,7 @@ label start:
     scene black
     with dissolve
     
-    "My name is Fake MC."
+    "My name is [fakeMcName.firstName] [fakeMcName.lastName]."
     
     "I’m a normal first year in High School, and my parents work abroad, so I live in the dormitories."
     
