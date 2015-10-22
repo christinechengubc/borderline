@@ -49,7 +49,7 @@ label start:
         $ firstName = renpy.input("First, what is your first name?", default = "Yuu")
 
         $ firstName = firstName.strip()
-        $ lastName = renpy.input("I see. Now, what is your last name?,", default = "Shijou")
+        $ lastName = renpy.input("I see. Now, what is your last name?", default = "Shijou")
 
         $ lastName = lastName.strip()
     

@@ -1,29 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/options.rpy", line 10, in script
-    init -1 python hide:
-  File "game/options.rpy", line 169, in <module>
-    style.say_what.color = "#FFFFFF"
-Exception: Style 'say_what' does not exist.
+  File "game/script.rpy", line 49, in script
+    $ firstName = renpy.input(prompt, "First, what is your first name?", default = "Yuu")
+  File "game/script.rpy", line 49, in <module>
+    $ firstName = renpy.input(prompt, "First, what is your first name?", default = "Yuu")
+NameError: name 'prompt' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/options.rpy", line 10, in script
-    init -1 python hide:
-  File "D:\Program Files (x86)\renpy\renpy-6.99.5-sdk\renpy\ast.py", line 797, in execute
+  File "game/script.rpy", line 49, in script
+    $ firstName = renpy.input(prompt, "First, what is your first name?", default = "Yuu")
+  File "C:\Users\Johnson\Desktop\renpy-6.99.6-sdk\renpy-6.99.6-sdk\renpy\ast.py", line 797, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\Program Files (x86)\renpy\renpy-6.99.5-sdk\renpy\python.py", line 1448, in py_exec_bytecode
+  File "C:\Users\Johnson\Desktop\renpy-6.99.6-sdk\renpy-6.99.6-sdk\renpy\python.py", line 1448, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "game/options.rpy", line 169, in <module>
-    style.say_what.color = "#FFFFFF"
-  File "renpy/style.pyx", line 206, in renpy.style.StyleManager.__getattr__ (gen\renpy.style.c:3223)
-    return get_style(name)
-  File "renpy/style.pyx", line 88, in renpy.style.get_style (gen\renpy.style.c:1648)
-    raise Exception("Style %r does not exist." % name)
-Exception: Style 'say_what' does not exist.
+  File "game/script.rpy", line 49, in <module>
+    $ firstName = renpy.input(prompt, "First, what is your first name?", default = "Yuu")
+NameError: name 'prompt' is not defined
 
-Windows-8-6.2.9200
-Ren'Py 6.99.5.602
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.6.739
 borderline 0.0

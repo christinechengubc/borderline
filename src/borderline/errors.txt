@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/options.rpy", line 162: unexpected indent
-        style.default.outlines = [(4, "#ff0000", 0, 0), (2, "#fff", 0, 0)] 
-        ^
-    
+File "game/screens.rpy", line 114: expected a keyword argument or end of line.
+    style "nvl_window":
+                      ^
 
-Ren'Py Version: Ren'Py 6.99.5.602
+Ren'Py Version: Ren'Py 6.99.6.739
