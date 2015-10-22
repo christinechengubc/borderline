@@ -54,9 +54,10 @@ label start:
         $ lastName = lastName.strip()
     
     
-        
         "'%(firstName)s %(lastName)s'. Is this your name?"
-        menu:
+       
+        menu: 
+            "'%(firstName)s %(lastName)s'. Is this your name?"
             "Yes.":
                 $ confirmedName = True 
                 $ fakeMcName.setFirstName(firstName)
