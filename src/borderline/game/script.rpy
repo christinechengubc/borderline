@@ -213,6 +213,8 @@ label start:
     
     "end of scene 1"
     
+    jump scene2
+    
     
     
     
