@@ -1,41 +1,9 @@
 ﻿# You can place the script of your game in this file.
 
-# Declare images below this line, using the image statement.
-# eg. image eileen happy = "eileen_happy.png"
-image fakebg bedroom = "bedroom.jpg"
-image fakebg sokawaii = "Fai_is_kawaii.jpg"
-image fakebg morningstreet = "street.jpg"
-image sylvie = "sylvie.png"
-image eileen = "eileen.png"
-
-# Declare characters used by this game.
-define OJ = Character('Ojou-sama', color="#FFFFFF")
-
-init python:
-    
-    class CharacterName:
-        def __init__(self,firstName,lastName):
-            self.firstName = firstName
-            self.lastName = lastName
-            
-        def setFirstName(self, firstName):
-            self.firstName = firstName
-            
-        def setLastName(self, lastName):
-            self.lastName = lastName
-            
-init:
-    
-    $ OJ = Character("Ojou-sama", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")
-    
-
 
 # The game starts here.
 label start:
-    python:
-        fakeMcName = CharacterName("Default","Name")
     
-    $ confirmedName = False
     
     scene fakebg sokawaii
     with dissolve
@@ -70,12 +38,7 @@ label start:
     "Now that we have the introductions out of our way, I do believe it is time for you to begin your story."
     
     "Have fun."
-    
-    define MC = Character('[fakeMcName.firstName] [fakeMcName.lastName]', color="#FFFFFF")
-    
-    init:
-        $ MC = Character("[fakeMcName.firstName] [fakeMcName.lastName]", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")
-    
+        
     scene black
     with dissolve
     

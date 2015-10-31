@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 114: expected a keyword argument or end of line.
-    style "nvl_window":
-                      ^
+File "game/script.rpy", line 81: init statement expects a non-empty block.
+    init:
+         ^
 
-Ren'Py Version: Ren'Py 6.99.6.739
+Ren'Py Version: Ren'Py 6.99.5.602
