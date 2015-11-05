@@ -1,4 +1,4 @@
-﻿## This file contains some of the options that can be changed to customize
+﻿## This file contains some of the optios that can be changed to customize
 ## your Ren'Py game. It only contains the most common options... there
 ## is quite a bit more customization you can do.
 ##
@@ -39,46 +39,40 @@ init -1 python hide:
     ## The theme function takes a number of parameters that can
     ## customize the color scheme.
 
-    theme.roundrect(
+    theme.a_white_tulip(
+        ## Theme: A White Tulip
+        ## Scheme Muted Horror
 
         ## The color of an idle widget face.
-        widget = "#003c78",
+        widget = "#777777",
 
         ## The color of a focused widget face.
-        widget_hover = "#0050a0",
-
-        ## The color of the text in a widget.
-        widget_text = "#c8ffff",
+        widget_hover = "#73735C",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#ffffc8",
+        widget_selected = "#000000",
 
         ## The color of a disabled widget face.
-        disabled = "#404040",
-
-        ## The color of disabled widget text.
-        disabled_text = "#c8c8c8",
-
-        ## The color of informational labels.
-        label = "#ffffff",
+        disabled = "#73735C",
 
         ## The color of a frame containing widgets.
-        frame = "#6496c8",
-
-        ## If this is True, the in-game window is rounded. If False,
-        ## the in-game window is square.
-        rounded_window = False,
+        frame = "#555544",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#dcebff",
+        mm_root = "#1A0001",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#dcebff",
+        gm_root = "#1A0001",
+
+        ## The fonts used by this theme. The default fonts may not be
+        ## suitable for non-English languages.
+        regular_font = "_theme_awt/Quicksand-Regular.ttf",
+        bold_font = "_theme_awt/Quicksand-Bold.ttf",
 
         ## And we're done with the theme. The theme will customize
         ## various styles, so if we want to change them, we should
@@ -95,6 +89,7 @@ init -1 python hide:
     ## respectively.
 
     # style.window.background = Frame("frame.png", 12, 12)
+    style.window.background = Solid((0, 0, 0, 180))
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -116,6 +111,20 @@ init -1 python hide:
     ## and padding.
 
     # style.window.yminimum = 250
+
+    ##Customization of the name box if show_two_window = True
+
+    style.say_who_window.background = Solid((0, 0, 0, 255))
+    style.say_who_window.xalign = 0.0
+    style.say_who_window.yalign = 1.0
+    style.say_who_window.xpos = 0
+    style.say_who_window.ypos = 63
+    style.say_who_window.left_padding = 5
+    style.say_who_window.top_padding = 5
+    style.say_who_window.right_padding = 5
+    style.say_who_window.bottom_padding = 5
+    style.say_who_window.xminimum = 250
+    style.say_who_window.yminimum = 10
 
 
     #########################################
@@ -148,6 +157,13 @@ init -1 python hide:
     ## The default size of text.
 
     # style.default.size = 22
+
+    style.default.color = "#FFFFFF"
+    #style.default.outlines = [(4, "#ffffff", 0, 0), (2, "#000000", 0, 0)] #Adds a white outline 4 pixels thick, and then a black outline, 2 pixels thick
+
+    #customize character name font
+    style.say_label.color = "#FFFFFF"
+    style.say_label.font = "DejaVuSans.ttf"
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -284,3 +300,5 @@ init -1 python hide:
 
     #########################################
     ## More customizations can go here.
+
+    config.searchpath.append('images')
