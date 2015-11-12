@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 81: init statement expects a non-empty block.
-    init:
-         ^
+File "game/script.rpy", line 181: expected ':' not found.
+    label scene1part2
+                     ^
 
 Ren'Py Version: Ren'Py 6.99.5.602

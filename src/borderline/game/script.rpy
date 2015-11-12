@@ -178,7 +178,9 @@ label start:
     
     jump scene2
     
+label scene1part2:
     
+    jump scene3
     
     
     
