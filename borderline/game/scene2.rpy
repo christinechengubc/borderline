@@ -9,5 +9,3 @@ label scene2:
     "More importantly, though, other students were still walking into the building, which meant that I wasn’t late!"
     
     MC "Well, thanks a bunch, ojou-sama! See you!"
-    
-    jump scene1part2
