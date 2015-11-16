@@ -7,8 +7,10 @@ image sylvie = "images/sylvie.png"
 image eileen = "images/eileen.png"
 
 # Declare characters used by this game.
-define OJ = Character('Ojou-sama', color="#FFFFFF")
+define OJ = Character("Ojou-sama", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")
+define MC = Character("[fakeMcName.firstName] [fakeMcName.lastName]", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")
 
+# Declare Python Objects here
 init python:
     
     class CharacterName:
@@ -22,13 +24,11 @@ init python:
         def setLastName(self, lastName):
             self.lastName = lastName
             
-            
+
+# Declare initial python variables here
 init:
     
     python:
         fakeMcName = CharacterName("Default","Name")
+        confirmedName = False
     
-    $ confirmedName = False
-    
-    $ MC = Character("[fakeMcName.firstName] [fakeMcName.lastName]", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")
-    $ OJ = Character("Ojou-sama", color = "#FFFFFF", show_two_window=True, what_color="#FFFFFF")

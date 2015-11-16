@@ -175,11 +175,12 @@ label start:
     with fade
     
     "end of scene 1"
+    "Current value of test is [test]"
     
     call scene2
 
     "we have now returned to the script file"
     
-    
+    "Now, current value of test is [test]"
     
     return
