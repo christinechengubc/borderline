@@ -1,4 +1,4 @@
-﻿# This file is in the public domain. Feel free to modify it as a basis
+# This file is in the public domain. Feel free to modify it as a basis
 # for your own screens.
 
 # Note that many of these screens may be given additional arguments in the
@@ -560,4 +560,15 @@ init -2:
         selected_idle_color "#cc08"
         selected_hover_color "#cc0"
         insensitive_color "#4448"
+        
+##############################################################################
+# Testing Map Function
 
+screen planets: #Preparing the imagemap
+    imagemap:
+        ground "images/townmap.jpg"
+        hover "images/hoverimage.png"
+        
+        hotspot (150, 244, 184, 102) clicked Jump("mercury")
+        hotspot (544, 43, 168, 104) clicked Jump("venus")
+        hotspot (533, 325, 197, 109) clicked Jump("earth")
