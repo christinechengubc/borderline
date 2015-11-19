@@ -564,11 +564,3 @@ init -2:
 ##############################################################################
 # Testing Map Function
 
-screen planets: #Preparing the imagemap
-    imagemap:
-        ground "images/townmap.jpg"
-        hover "images/hoverimage.png"
-        
-        hotspot (150, 244, 184, 102) clicked Jump("mercury")
-        hotspot (544, 43, 168, 104) clicked Jump("venus")
-        hotspot (533, 325, 197, 109) clicked Jump("earth")

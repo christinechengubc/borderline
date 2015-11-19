@@ -1,7 +1,7 @@
 # Declare images below this line, using the image statement.
 # eg. image eileen happy = "eileen_happy.png"
 image fakebg bedroom = "images/bedroom.jpg"
-image fakebg sokawaii = "images/Fai_is_kawaii.jpg"
+image fakebg sokawaii = "images/fai_kawaii.jpg"
 image fakebg morningstreet = "images/street.jpg"
 image sylvie = "images/sylvie.png"
 image eileen = "images/eileen.png"
@@ -10,7 +10,7 @@ image eileen = "images/eileen.png"
 define OJ = Character('Ojou-sama', color="#FFFFFF")
 
 init python:
-    
+     
     class CharacterName:
         def __init__(self,firstName,lastName):
             self.firstName = firstName
