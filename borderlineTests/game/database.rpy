@@ -10,6 +10,20 @@ image eileen = "images/eileen.png"
 define OJ = Character('Ojou-sama', color="#FFFFFF")
 
 init python:
+    
+    # instantiating calendar
+    calendar = SimpleCalendar(1,"January")
+    
+    # instantiating locations
+    school = Location("School. Your most favorite place in the whole wide world.", 150, 244, 184, 102, "school")
+    city_hall = Location("City Hall. You can do stuff here.", 544, 43, 168, 104, "city_hall")
+    profile = Location("Feeling good? Check yourself out.", 533, 325, 197, 109, "profile")
+    home = Location("Go home and watch some anime. Don't bother coming out again.", 910, 247, 186, 108, "home")
+    #current location is initialized as the first location that jumps to the map
+    current_location = profile
+    
+    locations = [school, city_hall, profile, home]
+        
      
     class CharacterName:
         def __init__(self,firstName,lastName):

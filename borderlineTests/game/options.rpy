@@ -278,7 +278,7 @@ init -1 python hide:
 python early:
     config.save_directory = "borderline-1443668337"
 
-init -1 python hide:
+init -1 python:
     #########################################
     ## Default values of Preferences.
 
@@ -300,5 +300,3 @@ init -1 python hide:
 
     #########################################
     ## More customizations can go here.
-
-    config.searchpath.append('images')

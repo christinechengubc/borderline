@@ -1,4 +1,5 @@
 label scene2:
+    scene black
     
     "Five minutes of driving later, the car rolled beside the entrance of High School."
     
