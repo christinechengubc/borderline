@@ -1,13 +1,15 @@
 # Declare images below this line, using the image statement.
 # eg. image eileen happy = "eileen_happy.png"
-image fakebg bedroom = "bedroom.jpg"
-image fakebg sokawaii = "Fai_is_kawaii.jpg"
-image fakebg morningstreet = "street.jpg"
-image sylvie = "sylvie.png"
-image eileen = "eileen.png"
+image fakebg bedroom = "images/bedroom.jpg"
+image fakebg sokawaii = "images/Fai_is_kawaii.jpg"
+image fakebg morningstreet = "images/street.jpg"
+image sylvie = "images/sylvie.png"
+image eileen = "images/eileen.png"
 
 # Declare characters used by this game.
 define OJ = Character('Ojou-sama', color="#FFFFFF")
+define TCH = Character('Teacher', color="#FFFFFF")
+define HRK = Character('Haruka', color="#FFFFFF")
 
 init python:
     

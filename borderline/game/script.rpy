@@ -53,9 +53,9 @@ label start:
     
     "I rolled over onto my back, before pushing myself upwards. My mind was still slow, but at the very least, my eyes could read the digital display of the alarm clock."
     
-    MC "8:40AM… Monday…"
-        
-    "I yawn luxuriously, my brain kicking to normal capacity after that extra burst of oxygen."
+    MC "8:40AM… Monday… uwahhn…"
+
+    "I stopped mid-yawn."
     
     MC "Wait, Monday?"
     
@@ -67,16 +67,18 @@ label start:
     
     MC "Shit!"
     
-    "I roll out of bed, bounce into my school uniform, grab my bag, ignore my breakfast-lusting stomach, and run out."
+    "I rolled out of bed, bounced into my school uniform, grabbed my bag, ignored my stomach, and ran out."
     
-    "Halfway through the hallway, I pat my pockets to ensure that everything was in place: cellphone, wallet, and house keys, before rushing out."
+    "Halfway through the hallway, I felt my pockets."
+    
+    "There was a familiar weight in them, a jingle that signified that my cellphone and my keys were at least with me."
     
     scene fakebg morningstreet
     with dissolve
     
     "Outside the two-floor dormitory that I lived in, the bus had already puttered off, obnoxiously mocking me with its semi-visible exhaust fumes."
     
-    MC "Ugh…why didn’t Childhood Friend wake me up today? Was she sick or something?"
+    MC "Ugh…why didn’t she wake me up today? Was she sick or something?"
     
     "But she lived right across the street, or could have texted me, so…"
     
@@ -105,11 +107,11 @@ label start:
     show eileen
     with dissolve
     
-    "As I turned a corner, a woman with snow-white hair appears, and I jump to the side, only barely managing to avoid her. "
+    "I jumped to the side, only barely managing to avoid her."
     
-    "No surprise showed up in her ice-chip eyes, and the well-tailored clothes she wore shared that same ‘untouchable’ feel. "
+    "She didn’t look like she was from the neighborhood, nor did she look like a student at all. More like a CEO or some other professional lady."
     
-    "A proper ice queen, it looked like."
+    "Was she late to work as well?"
     
     "Ah, but there’s no time to think of such things now!"
     
@@ -122,9 +124,9 @@ label start:
     
     "After all, for some uncanny reason, every cute girl I meet seemed to get wrapped up in my life one way or the other. "
     
-    "Foreigner-chan would probably pop up later during the day as a new occupant in the dormitories. Maybe show up as a high school teacher, even?"
+    "Foreigner-chan would probably pop up later during the day as a new occupant in the dormitories. Maybe show up as my home room teacher, even?"
     
-    "If it rains, perhaps she’ll be caught outside without an umbrella or something."
+    "If it rains, perhaps she’ll be caught outside without an umbrella or something, and I’ll lend her my jacket."
     
     #school bell rings
     #not sure what bg for this or how to insert
@@ -157,7 +159,10 @@ label start:
     
     "Ojou-sama is such a good friend! I really should find a way to express my thanks in the future, but what would I even give such a wealthy lady?"
     
-    "She looks at me with expectant eyes as I relax in the plush interior of the luxury vehicle. "
+    # OJ has expectant look in her eyes
+    # deleted line "She looks at me with expectant eyes as I relax in the plush interior of the luxury vehicle. "
+    # BG is tinted, as if looking through tinted windows
+    # romantic music plays
     
     "The surround sound stereo was playing warm, romantic music, and the fragrance of vanilla, Ojou-sama’s signature perfume, was strong in the air."
     
@@ -167,7 +172,17 @@ label start:
     
     "I look back at her and smile, before turning my attention to the tinted windows and the passing scenery."
     
-    OJ "Sigh… I suppose one should have expected such a vanilla response from honey."
+    MC "Thanks again, ojou-sama. Don’t know how I can repay you for this."
+    
+    OJ "Don’t worry about it, sweetie. My body is yours to take~"
+    
+    # OJ vibes intensify? lol.
+    
+    MC "Hahaha...eh?"
+    
+    # OJ looks disappointed
+    
+    OJ "Sigh… I suppose one should have expected such a gentle response from honey."
     
     MC "Uh..ok?"
     
