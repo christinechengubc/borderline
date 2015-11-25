@@ -1,6 +1,6 @@
 label scene2:
     
-    ## outside school background
+    scene bg school with fade
     
     "Five minutes of driving later, the car rolled beside the entrance of Izumo High School."
     
@@ -15,6 +15,7 @@ label scene2:
     MC "Well, thanks a bunch, ojou-sama! See you!"
     
     ## OJ blushes
+    show ojousama with dissolve
     
     OJ "Adieu, my love~ Shall I pick you up again tomorrow?"
     
@@ -47,6 +48,7 @@ label scene2:
     
     MC "Well, gotta go now. Let’s meet by the Park then, alright?"
     
+    hide ojousama with dissolve
     ## running sounds
     
     "Hopefully, Ojou-sama won’t be late for her own school, but then again, maybe she has private tutors instead?"
@@ -57,9 +59,14 @@ label scene2:
     
     ## Ojou-sama puts on a Kira face, hand over her face dramatically.
     
+    show ojousama with dissolve
+    
     OJ "Fufufufufu… it’s my victory!"
     
+    hide ojousama with dissolve
+    
     ## transition to classroom
+    scene bg classroom with fade
     
     "The classroom was full by the time I walked in."
     
@@ -76,8 +83,11 @@ label scene2:
     "Nothing."
     
     ## teacher enters
+    show teacher with dissolve
     
     TCH "Class is starting now! Everyone settle down, please."
+    
+    hide teacher with dissolve
     
     "Well, she should be fine. It’s not like she’s obligated to give me a status update whenever something happens to her."
     
@@ -86,12 +96,15 @@ label scene2:
     "With that, I turned my attention to my books, and got to work."
     
     ## transition to rooftop garden, afternoon
+    scene bg rooftop with fade
     
     "Classes had ended for the day, students heading off home. Only a few clubs started activities already, and it’d be a couple of weeks before they truly kicked off."
     
     "The Gardening Club’s fall harvest was just a few weeks from ripening, and already, I could see some zucchinis ready to be plucked. "
     
     "They were large and smooth, their green flesh bursting with the promise of a delicious crunch."
+    
+    show haruka with dissolve
     
     HRK "They look good, right?"
     

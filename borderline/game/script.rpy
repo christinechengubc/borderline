@@ -104,7 +104,7 @@ label start:
     
     MC "And on today of all days! There goes good fi- Uwah!"
     
-    show eileen
+    show icequeen
     with dissolve
     
     "I jumped to the side, only barely managing to avoid her."
@@ -117,7 +117,7 @@ label start:
     
     MC "Sorry about that!"
     
-    hide eileen
+    hide icequeen
     with dissolve
     
     "With that, I run. Chances are, I’d see her again anyways."
@@ -139,7 +139,7 @@ label start:
     
     #car engine noise
     #Ojou-sama enters with car
-    show sylvie
+    show ojousama
     with dissolve
     
     OJ "Ohohoho, my betrothed, in a bind? Saitama-san didn’t wake you up?"
