@@ -159,3 +159,5 @@ label scene2:
     MC "Thank you. And sorry you had to become a bearer of bad news."
     
     "My hand felt numb as I patted her on the head."
+    
+    jump scene3

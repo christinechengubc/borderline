@@ -6,17 +6,33 @@ image fakebg morningstreet = "images/street.jpg"
 image bg school = "images/school.jpg"
 image bg classroom = "images/classroom.jpg"
 image bg rooftop = "images/rooftop.jpg"
+image bg city_night = "images/city_night.jpg"
+image bg subway = "images/subway.jpg"
+image bg alleyway = "images/alleyway.jpg"
+image bg warehouse = "images/warehouse.jpg"
+image bg warehouse_red = "images/warehouse_red.jpg"
+
+image shade red = "images/red.png"
+
 image sylvie = "images/sylvie.png"
 image eileen = "images/eileen.png"
 image haruka = "images/haruka.png"
 image ojousama = "images/ojousama.png"
 image icequeen = "images/icequeen.png"
 image teacher = "images/teacher.png"
+image miyu = "images/miyu.png"
+image baddie = "images/baddie.png"
 
 # Declare characters used by this game.
+# Prologue characters
 define OJ = Character('Ojou-sama', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
 define TCH = Character('Teacher', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
 define HRK = Character('Haruka', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
+define MY = Character('Miyu', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
+define ESF = Character('Esfir', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
+define BD = Character('???', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
+# main characters
+define K = Character('Kohaku', color="#FFFFFF", show_two_window=True, what_color="#FFFFFF")
 
 init python:
     
