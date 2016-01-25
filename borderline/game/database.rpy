@@ -11,6 +11,7 @@ image bg subway = "images/subway.jpg"
 image bg alleyway = "images/alleyway.jpg"
 image bg warehouse = "images/warehouse.jpg"
 image bg warehouse_red = "images/warehouse_red.jpg"
+image bg train = "images/train.jpg"
 
 image shade red = "images/red.png"
 

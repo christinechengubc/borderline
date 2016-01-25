@@ -401,7 +401,7 @@ label scene4_fight:
 
 label scene4_credits:
     
-    ## scene bg train with fade
+    scene bg train with fade
     
     "The trains slowed down, inertia causing my body to lean forward."
     "In this day and age, speed and silence could be had in the same package, and the interior of the train was devoid of any engine noises."
