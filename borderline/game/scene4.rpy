@@ -416,5 +416,7 @@ label scene4_credits:
     K "I still have time."
     
     "And the moon was beautiful, even if no one was beside me."
+    
+    jump town_map
 
     return
